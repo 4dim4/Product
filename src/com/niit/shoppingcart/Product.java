@@ -27,7 +27,7 @@ public class Product {
 
 	public int getPrice() {
 		if(price<0){
-			System.out.println("Invalid Entry");
+			return 500;
 		}
 		return price;
 	}
